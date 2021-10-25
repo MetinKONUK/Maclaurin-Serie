@@ -1,7 +1,5 @@
 from math import factorial as f, e
-n = int(input("Enter the n value: "))
-x = int(input("Enter the x value: "))
-real_value =  e**x
+n, x, real_value = int(input("Enter the n value: ")),  int(input("Enter the x value: ")), e**x
 print("The real result of e^{0} is {1}".format(x, real_value))
 result = 1 + x
 for i in range(2, n+1):
